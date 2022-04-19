@@ -1,0 +1,582 @@
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  border: 0;
+  outline: 0;
+  transition: all 0.5s;
+}
+.container {
+  max-width: 90%;
+  margin: auto;
+}
+.row{
+  max-width: 100%;
+  float: left;
+}
+.btn{
+  background-color: #2500f9;
+  color: white;
+  padding:12px 25px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.btn:hover{
+  background-color: aqua;
+  color: black;
+}
+.h1-wr{
+  color: #242f51;
+}
+.row{
+   width: 100%;
+   float: left;
+}
+a{
+  text-decoration: none; 
+}
+.col-1 {width: 8.33%; 
+    float: left;
+}
+
+  .col-2 {width: 16.66%;
+    float: left;
+}
+  .col-3 {width: 25%;
+    float: left;
+}
+  .col-4 {width: 33.33%;
+    float: left;
+}
+  .col-5 {width: 41.66%;
+    float: left;
+}
+  .col-6 {width: 50%;
+    float: left;
+}
+  .col-7 {width: 58.33%;
+    float: left;
+}
+  .col-8 {width: 66.66%;
+    float: left;
+}
+  .col-9 {width: 75%;
+    float: left;
+}
+  .col-10 {width: 83.33%;
+    float: left;
+}
+  .col-11 {width: 91.66%;
+    float: left;
+}
+  .col-12 {width: 100%;
+    float: left;
+}
+.logo-part{
+  padding: 20px 0;
+  margin-top: 5px;
+  padding-left: 80px;
+    
+}
+.menu-part{
+  padding: 20px 0;
+    text-align: end;
+    margin-top: 09px;
+}
+.menu-part li{
+  text-align: right;
+  list-style: none;
+  margin: 0 10px;
+  font-size: 20px;
+  display: inline-block;
+    
+}
+.menu-part li a {
+  color: #242f51;
+  text-decoration: none;
+  
+}
+.menu-part a:hover{
+  color: aqua;  
+}
+.btn-part{
+  display: block;
+  text-align: center;
+  margin-top: 18px;
+}
+.header-btn {
+  margin-right: 60px;
+}
+header{
+    max-width: 100%;
+    float: left;
+    background-color: azure;
+    position: fixed;
+    z-index: 9999;
+}
+/*.............BOdy one........*/
+.body {
+  max-width: 100%;
+  float: left;
+  position: relative;
+  height: 580px;
+  top: 40px;
+  border-bottom: 1px solid white;
+}
+.bg-part .first {
+  width: 100%;
+  position: absolute;
+  top: 402px;
+  
+}
+.bg-part .second {
+  max-width: 60%;
+  position: absolute;
+  top: 70px;
+  left: 300px;
+  width: 1000px;
+}
+.bg-part .third {
+  max-width: 100%;
+  position: absolute;
+  bottom: 130px;
+  left: 17px;
+}
+.body-writing-part{
+  position: absolute;
+  top: 250px;
+  left: 250px;
+}
+.body-writing-part h1{
+  font-size: 50px;
+  
+}
+.body-img-one{
+  width: 300px;
+}
+.body-img-part img{
+    position: absolute;
+    z-index: 222;
+    top: 50px;
+    right: 150px;
+    width: 350px;
+}
+.logo {
+  max-width: 100%;
+  
+  margin: 45px 0;
+  
+  border-bottom: 2px solid #f7f8f7;
+}
+.logo-writing{
+  margin-top: 5%;
+  text-align: center;
+}
+.logo-writing h6{
+  padding-top: 50px;
+  font-size: 15px;
+}
+.logo-writing img{
+  padding: 20px;
+}
+.mobile-two {
+  margin-left: 27%;
+  width: 62%;
+  margin-top: 11%;
+}
+.logo-body-writing-part{
+  margin-top: 5%;
+}
+.logo-body-img-writing {
+  margin-top: 10%;
+}
+.ooo{
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+.ajaira{
+  margin-top: 10%;
+}
+.body-hwriting{
+padding-left: 20%;
+}
+.body-pwriting{
+  padding-left: 2%;
+}
+.ajaira-part{
+  margin-top: 7%;
+}
+.ajaira-icon-9{
+  padding-left: 17%;
+}
+.ajaira-icon-10{
+  padding-left: 9%;
+}
+.ajaira-icon-11{
+  margin-left: 5%;
+
+}
+.another-ajaira-part{
+  margin-top: 8%;
+}
+.style-bg{
+  padding-left: 25%;
+  width: 80%;
+}
+.ajaira-writing-part{
+  padding-left: 5%;
+  margin-top:9%;
+}
+.heading-part{
+  text-align: center;
+}
+.style-icon-part{
+  margin-top: 5%;
+  text-align: center;
+}
+.style-a{
+padding-left: 20%;
+}
+.style-c{
+  padding-right: 19%;
+}
+.duel-mb-part{
+  margin-top: 10%;
+}
+.icon-part-row{
+  margin-top: 10%;
+  margin-left: 15%;
+}
+.mb-bicon-part{
+  margin-left: 10%;
+}
+.style-mb{
+  width: 70%;
+  
+}
+.s-icon{
+  margin-top: 8%;
+}
+
+
+
+.s-icon-content-part{
+  position: relative;
+}
+.s-icon-heading-part{
+  padding-left: 90px;
+}
+.s-icon-top-pg{
+  padding: 20px 0px;
+}
+
+
+.s-icon-phone-part{
+  margin-top: -90px;
+  position: relative;
+}
+.s-icon-img{
+  margin-top: 0px;
+  width: 99%;
+  position: absolute;
+  
+  z-index: 100;
+}
+
+.s-icon-row-1{
+  margin-top: 50px;
+  padding-left: 120px;
+}
+
+.s-icon-col-1-bottom{
+  margin-top: 90px;
+}
+.s-icon-btn{
+  margin-top: 5%;
+  padding:12px 40px;
+}
+
+/*............section-4............*/
+.section-4{
+  margin-top: 9%;
+}
+.sec-4-top-part{
+  margin-top: 250px;
+  text-align: center;
+}
+.sec-4-h2{
+  font-size: 30px;
+}
+.sec-4-pg{
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+.button-part-sec-4{
+  width: 250px;
+  float: left;
+  border: 1px solid;
+  margin-bottom: 50px;
+  border-radius: 22px;
+  margin-left: 43%;
+}
+.sec-4-btn{
+  width: 51%;
+}
+.sec-4-btn-2{
+  background-color: transparent;
+  color: #898a8e;
+  border: none;
+}
+.sec-4-btn-2:hover{
+  background-color: transparent;
+  
+}
+.sec-4-price-list{
+  padding-left: 8%;
+}
+
+.price-1{
+  float: left;
+   margin-top: 50px;
+   margin-bottom: 70px;
+  width: 300px;
+  height: 420px;
+  margin-left: 25%;
+  box-shadow: 0px 0px 5px rgb(0,0,0,0.5);
+  border-radius: 10px;
+  transition: 0.4s ease-in-out;
+}
+.price-1:hover{
+  box-shadow: 10px 10px 4px rgb(0,0,0,0.3), -10px -10px 4px rgb(0,0,0,0.3);
+  cursor: pointer;
+}
+.heading-h5{
+  padding-top: 50px;
+  font-size: 17px;
+}
+.price-1 h5{
+  font-size: 17px;
+  text-align: center;
+  line-height: 35px;
+  font-family: tahoma;
+}
+.main-price{
+  padding-top: 10px;
+  height: 150px;
+  background-color: #e9eef0;
+  text-align: center;
+}
+.main-price h1, .sec-4-h4{
+  display: inline;
+  font-size: 50px;
+  font-weight: 300;
+  font-family: impact;
+}
+.main-price h1{
+  font-weight: bold;
+}
+.main-price h4{
+  font-size: 20px;
+}
+.heading-h3{
+  padding: 5px 0px;
+}
+.heading-6{
+  font-size: 15px;
+}
+.price-btn{
+  margin-left: 60px;
+  margin-top: 20px;
+}
+.price-2{
+  margin-left: 35px;
+  height: 450px;
+}
+/*............section.............*/
+.section-5{
+  margin-top: 11%;
+}
+.map-part{
+  max-width: 100%;
+}
+.self{
+  max-width: 100%;
+}
+.self-pic{
+    margin: 20px 0;
+    float: left;
+    width: 20%;
+}
+.arrow-part{
+  margin-top: 9%;
+}
+.arrow-part i{
+
+}
+.self-writing{
+  display: inline-block;
+  margin-top: 8%;
+}
+.ficon-part{
+  display: inline-block;
+  margin-left: 20%;
+}
+span {
+  width: 2px;
+  height: 90px;
+  background-color: #898a8e;
+  position: absolute;
+  margin-top: 10%;
+}
+/*............section-6..................*/
+.section-11{
+  text-align: center;
+  margin-top: 10%;
+ 
+  
+}
+.sec-11-top-part{
+  text-align: center;
+  padding-top: 200px;
+}
+.heading-h1{
+  font-size: 30px;
+  padding-bottom: 10px;
+}
+.sec-11-pg{
+  line-height: 25px;
+  padding-bottom: 50px;
+}
+
+.s-11-last-part{
+ width: 60%;
+  margin: auto;
+}
+.s-11-line-1{
+  float: left;
+  background-color: #f0f3f7;
+  padding: 30px;
+}
+.s-11-h3{
+  padding-bottom: 20px;
+  font-family: segoe UI;
+}
+.box-pg{
+  line-height: 22px;
+}
+.s-11-line-2{
+  width: 100%;
+  background-color: #f0f3f7;
+  float: left;
+  margin-top: 5px;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+.s-11-line-2:hover{
+  box-shadow: 5px 5px 2px rgba(0,0,0,0.3), -5px -5px 2px rgba(0,0,0,0.3);
+  margin-top: 15px;
+}
+.s-h3-box{
+  padding-left: 20px;
+  padding-top: 10px;
+}
+.s-h3-box-1 i{
+  padding-left: 230px;
+}
+.s-h3-box-2 i{
+  padding-left: 340px;
+}
+.s-h3-box-3 i{
+  padding-left: 435px;
+}
+.s-h3-box-4 i{
+  padding-left: 407px;
+}
+.s-11-content span {
+  width: 100%;
+  height: 3px;
+  background-color: #f4f4f4;
+  float: left;
+}
+/* =====================section 11================== */
+.s-11-content{
+  padding-top: 100px;
+}
+.sec-11-span{
+  width: 100%;
+  height: 3px;
+  margin:2px solid #f4f4f4;
+  float: left;
+}
+.s-11-write-part{
+  padding-left: 150px;
+
+}
+.heading-h1-s-11{
+  padding-top: 80px;
+}
+
+.s-11-btn{
+  width: 150px;
+  border: none;
+  cursor: pointer;
+}
+.s-11-btn-2{
+  margin-left: 5%;
+  margin-bottom: 22px;
+}
+.s-11-btn img{
+  width: 100%;
+}
+
+.s-11-img-part{
+  position:;
+  left: 50%;
+}
+.last-pic{
+  max-width: 100%;
+}
+.section-111{
+  border-top: 2px solid #e9eef0;
+  margin-top: 8%;
+}
+/*...............footer............*/
+.footer-content{
+  background-color: #09142e;
+  margin-top: 3%;
+  }
+  
+  
+  .logo-part-footer{
+      padding-top: 100px;
+      text-align: center;
+  }
+  .footer-content ul{
+      display: flex;
+
+      list-style: none;
+      margin: 30px 0px 30px 38%;
+  }
+  .footer-content ul li{
+      margin: 0px 1.5%;
+
+  }
+  .footer-content ul li a{
+      color: #fff;
+  }
+  .icon-footer a i{
+      color: #fff;
+      font-size: 25px;
+      margin: 0px 1.5%;
+  }
+  .icon-footer{
+      margin-left: 43.7%;
+     margin-bottom: 50px;
+  }
+  .footer-h6{
+      color: #b4c1d1;
+      text-align: center;
+      margin-bottom: 50px;
+  }
